@@ -1,4 +1,4 @@
-Task: Solving a System of Linear Equations using Scaled Gaussian Elimination
+### Solving a System of Linear Equations using Scaled Gaussian Elimination
 
 Function Signature:
 
