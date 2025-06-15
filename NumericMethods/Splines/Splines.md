@@ -24,3 +24,24 @@ public:
     // Evaluate the spline at point z (x[0] <= z <= x[n-1])
     double operator()(double z) const;
 };
+
+```
+Input / Output
+
+Your single C++ file (including main) should:
+
+Read integer n (number of nodes).
+
+Read array x[0..n-1] (sorted ascending).
+
+Read array y[0..n-1] (function values).
+
+Read integer m (number of query points).
+
+Read m values z[j].
+
+Construct spline spl(n);
+
+Call spl.set_points(x, y);
+
+For each j from 0 to m-1, output spl(z[j]) on its own line in full double precision.
