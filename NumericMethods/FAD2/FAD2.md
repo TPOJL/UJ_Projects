@@ -1,6 +1,9 @@
 Problem D: Jet Propagation for Mixed Partial Derivatives (FAD2)
+
 Language: C++
+
 Problem Statement
+
 Symbolic computation of higher-order derivatives of a function f: ℝ² → ℝ quickly leads to very complex formulas and large numerical errors. Often, the formula for the function is not directly available; its values are computed by a subroutine. In automatic differentiation, basic arithmetic operations and elementary functions are replaced by operations on sequences of Taylor coefficients (or sequences of derivatives) called jets. This technique is known as jet propagation.
 
 Implement jets to compute all partial derivatives of a two-variable function up to second order at given points. For a function f(x,y) and point (x₀,y₀), compute the tuple:
